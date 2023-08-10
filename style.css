@@ -1,0 +1,218 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Urbanist:ital@1&display=swap";
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    scroll-behavior: smooth;
+    overflow: hidden;
+    /*background-color: darkgrey;*/
+    /*background-image: url(bg1.jpg);*/
+}
+
+.bg4{
+    background-color: black;
+    z-index: -4;
+    background-size: cover;
+    width: 101%;
+    height: 101%;
+    background-position: center;
+    position: absolute;
+}
+
+.bg1{
+    background-image: url(./Images/Backgrounds/gradient-noise.webp);
+    z-index: -2;
+    background-size: cover;
+    width: 101%;
+    height: 101%;
+    background-position: center;
+    position: absolute;
+}
+.bg2{
+    background-image: url(./Images/Backgrounds/mono-noise.webp);
+    z-index: -3;
+    background-size: cover;
+    width: 101%;
+    height: 101%;
+    background-position: center;
+    position: absolute;
+}
+.bg3{
+    background-image: url(./Images/Backgrounds/lines.svg);
+    z-index: -1;
+    background-size: cover;
+    width: 101%;
+    height: 101%;
+    background-position: center;
+    position: absolute;
+}
+
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    border-bottom: 1px solid rgb(27, 29, 29);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    position:fixed;
+    top:0;
+}
+
+.logo{
+    position: fixed;
+    font-family: inter;
+    font-size: 1em; 
+    align-items: center;
+    top: 1%;
+}
+.logo span{
+    position: fixed;
+    color: green;
+    background-image: linear-gradient(to right,#00fe90,#00a2ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    top: 3%;
+
+}
+.logo img {
+    max-height: 40px; 
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menu a{
+    position: relative;
+    text-decoration: none;
+    color: grey;
+    padding: 10px 8px;
+    font-family: inter;
+    font-size: 15px;
+    left: 170%;
+
+}
+.menu a:hover{
+    color: white;
+    
+}
+.round-button {
+    background-color: #0A8DFF;
+    color: white;
+    border: none;
+    border-radius: 9px; 
+    padding: 10px 15px;
+    cursor: pointer;
+    font-family: inter;
+    font-weight: bold;
+}
+.round-button:hover {
+    padding: 11px 17px;
+}
+.h-text{
+    color:white;
+    background-image: linear-gradient(to right,#00fe90,#00a2ff);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+   /*max-width: 1000px;*/
+    position: absolute;
+    top: 16%;
+    left: 12%;
+    /*transform:translate(-50% ,-60%);*/
+    text-align: center;
+}
+.volta{
+    position: absolute;
+    left: 42.5%;
+   margin-bottom: 1rem;
+   margin-top: -3.1rem;
+   z-index: 1;
+   height: 25px;
+   
+}
+
+.first{
+    font-family: inter,sans-serif;
+    font-size: 3.5rem ;
+    line-height: 1.3em;
+    font-weight: 800;
+}
+.second{
+    font-family: inter,sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.3em;
+    font-weight: 800;
+}
+.p1
+{
+    color:white;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.button2 {
+    background-image: linear-gradient(to right,#00fe90,#00a2ff); 
+    color: black;
+    border: none;
+    border-radius: 9px;
+    padding: 14px 18px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: inter,sans-serif;
+}
+.button3 {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border: none;
+    border-radius: 9px; 
+    padding: 14px 18px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: inter,sans-serif;
+}
+.button3:hover{
+    cursor: pointer;
+    background-color: rgb(53, 58, 58);
+
+}
+.p2{
+    color: white;
+    font-weight: 700;
+    padding-top: 30px;
+    font-family: inter,sans-serif;
+    font-size: 1.2rem;
+}
+footer{
+    padding: 20px;
+}
+.image1{
+    margin-top: 100px;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.image2{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.image3{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.image4{
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
